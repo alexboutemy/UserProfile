@@ -1,0 +1,17 @@
+
+<div class="contact">
+    <div class="first-part">
+        <img [src]="user.photo" alt="user.name">
+        <div class="name-firstname">
+            <p>Nom : {{user.name}}</p>
+            <p>Prénom : {{user.firstName}}</p>
+        </div>
+    
+        <p class="quote">{{user.quote}}</p>
+        <input type="text" [(ngModel)]="user.quote">    
+    </div>
+    <div class="second-part">
+        <button (click)="showHideAge()">Afficher / Masquer mon âge</button>
+        <p class="card-text" [hidden]="user.isHidden"> {{user.firstName}} {{user.name}} a {{user.age}} ans </p>    
+    </div>
+ </div>

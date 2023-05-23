@@ -1,0 +1,39 @@
+
+
+.contact {
+    width:350px;
+    margin-left:35rem;
+  }
+
+.first-part{
+    border: solid 1px #e7e7e7;
+}
+
+.second-part {
+    display: flex;
+    background-color: #f7f7f7;
+    border: solid 1px #e7e7e7;
+}
+.name-firstname p{
+    font-weight: bold;
+    margin-top:0.5rem;
+}
+
+.quote{
+    margin-left:0.3rem;
+}
+
+p {
+    height:25px;
+    margin:0px;
+}
+
+button {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.card-text {
+    margin-top:0.5rem;
+    margin-left: 1rem;
+}
