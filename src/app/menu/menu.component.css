@@ -1,0 +1,19 @@
+ul {
+    text-align: center;
+}
+
+li {display: inline-block;
+    width:10rem;
+    background-color: lightgray;
+    border:solid 1px black;
+    border-radius: 0.5rem;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.sign-up {
+    margin-left: 1rem;
+    margin-right:5rem;
+}

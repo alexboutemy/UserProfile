@@ -1,0 +1,13 @@
+.sign-up {
+    width:350px;
+    margin-left:35rem;
+}
+
+h1 {
+    
+    text-align: center;
+}
+
+.flexContainer {
+    display :flex;
+    justify-content: center;}
